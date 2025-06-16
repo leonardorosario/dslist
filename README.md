@@ -114,3 +114,9 @@ dslist/
 
 Este projeto foi desenvolvido com foco no aprendizado prático de tecnologias modernas para backend com Java, sendo uma excelente base para aplicações mais completas.
 
+---
+
+## 🙋‍♂️ Autor
+
+**Leonardo Rosario Teixeira**  
+[GitHub: @leonardorosario](https://github.com/leonardorosario)
