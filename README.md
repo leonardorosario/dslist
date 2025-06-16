@@ -18,7 +18,6 @@ Durante o intensivão foram abordados fundamentos essenciais da construção de 
 - Relacionamentos entre entidades com JPA
 - Consultas com SQL nativo e projections
 - Perfis de projeto: desenvolvimento, homologação e produção
-- Deploy com Railway e CORS configuration
 
 ---
 
@@ -31,7 +30,6 @@ Durante o intensivão foram abordados fundamentos essenciais da construção de 
 - **H2 Database**
 - **Maven**
 - **Docker (opcional)**
-- **Railway (opcional)**
 
 ---
 
@@ -56,7 +54,7 @@ Durante o intensivão foram abordados fundamentos essenciais da construção de 
 - POST /lists/{listId}/replacement
 
 ### Aula 5 – Conclusão e Deploy
-- CI/CD com Railway
+- CI/CD com Railway (Apenas acompanhei pela aula, não realizei o deploy)
 - Testes com Postman
 
 ---
@@ -116,8 +114,3 @@ dslist/
 
 Este projeto foi desenvolvido com foco no aprendizado prático de tecnologias modernas para backend com Java, sendo uma excelente base para aplicações mais completas.
 
----
-
-## 📄 Licença
-
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
