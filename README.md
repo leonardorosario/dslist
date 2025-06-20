@@ -29,7 +29,7 @@ Durante o intensivão foram abordados fundamentos essenciais da construção de 
 - **PostgreSQL**
 - **H2 Database**
 - **Maven**
-- **Docker (opcional)**
+- **Docker**
 
 ---
 
@@ -82,6 +82,28 @@ dslist/
 ```
 
 ---
+
+## 🐳 Uso do Docker
+
+Durante o desenvolvimento do projeto, o Docker foi utilizado para facilitar a criação de um ambiente de homologação local. Através da configuração de containers, foi possível simular a infraestrutura do banco de dados PostgreSQL sem a necessidade de instalação manual na máquina local.
+
+### Etapas realizadas com Docker:
+
+- **Criação de container PostgreSQL** para o perfil `dev`, permitindo testes em um banco real.
+- Configuração das variáveis de ambiente no arquivo `application-dev.properties` apontando para o container.
+- Execução do app com o perfil de desenvolvimento (`dev`) conectado ao banco hospedado no container Docker.
+- Uso opcional de ferramentas como **DBeaver** ou **pgAdmin** para conexão e visualização dos dados.
+
+### Comando típico para subir o container:
+
+```bash
+docker run --name dslist-pg \
+  -e POSTGRES_DB=dslist \
+  -e POSTGRES_USER=postgres \
+  -e POSTGRES_PASSWORD=123456 \
+  -p 5432:5432 \
+  -d postgres
+
 
 ## 📦 Como Executar o Projeto
 
